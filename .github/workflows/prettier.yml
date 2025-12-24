@@ -1,7 +1,12 @@
 name: autofix.ci
 on:
-  pull_request:
+  workflow_dispatch:
   push:
+    paths:
+      - '**/*.js'
+      - '**/*.html'
+      - '!**/.github/**'
+      
 permissions: {}
 jobs:
   prettier:
