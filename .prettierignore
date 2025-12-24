@@ -10,3 +10,5 @@ js/appearance*.js
 js/process*.js
 js/page.min*.js
 css/main.bundle*.css
+
+.github/**
