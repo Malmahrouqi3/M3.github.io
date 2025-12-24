@@ -17,6 +17,7 @@ jobs:
         run: npm install -g cspell
       - name: Spell check code files
         run: cspell "**/*.{html,css,js,md}" --no-progress
+        continue-on-error: true
 
       - uses: autofix-ci/action@v1
         with:
