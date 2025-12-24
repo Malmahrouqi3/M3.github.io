@@ -1,0 +1,12 @@
+**/*.min.js
+**/*.min.css
+**/*.bundle.js
+**/*.bundle.css
+lib/**
+
+# Hashed bundles in this repo
+js/main.bundle*.js
+js/appearance*.js
+js/process*.js
+js/page.min*.js
+css/main.bundle*.css
